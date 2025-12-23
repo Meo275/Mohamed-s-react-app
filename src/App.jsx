@@ -1,18 +1,15 @@
 import './App.css'
 import Greeting from './components/Greeting'
 import Header from './components/Header'
+import Counter from './components/Counter'
 function App() {
   return (
     <>
-    <Greeting name="Mohamed" surname= "Abdi" />
-    <Header />
-    <Header />
-    <Header />
-    <Header />
-
-
+      <Header />
+      <Greeting name="Mohamed" surname="Abdi" />
+      <Counter />
     </>
-  )
+  );
 }
 
 export default App
