@@ -1,8 +1,9 @@
 import { useState } from "react";
 
-function Counter() {
-  const [count, setCount] = useState(0);
+export function Tiriye(){
 
+  let [count, setCount] = useState(0);
+count = 500;
   return (
     <div style={{backgroundColor:"yellow"}}>
       <h2>Count: {count}</h2>
@@ -10,6 +11,7 @@ function Counter() {
       <button onClick={() => setCount(count -1)}>Decrease</button>
     </div>
   );
-}
+ }
+export default Tiriye;
 
-export default Counter;
+
